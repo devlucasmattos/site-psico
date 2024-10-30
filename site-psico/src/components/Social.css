@@ -1,0 +1,28 @@
+.social-links {
+    margin-top: -20px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.instagram {
+    color: #e1306c;
+}
+
+.facebook {
+    color: #0a66c2;
+}
+
+.whatsapp {
+    color: #12d643;
+}

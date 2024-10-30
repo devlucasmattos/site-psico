@@ -1,0 +1,23 @@
+.depoimentos {
+    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0); 
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1160px;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 15px rgba(95, 158, 160, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.depoimentos:hover {
+    transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+}
+
+.depoimentos h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+}

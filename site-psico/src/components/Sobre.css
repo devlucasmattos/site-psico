@@ -1,0 +1,46 @@
+.sobre {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 2rem 0; 
+    width: 100%; 
+}
+
+.sobre .container {
+    max-width: 800px; 
+    width: 100%; 
+}
+
+.sobre h2, .sobre p {
+    font-family: 'Playfair Display', serif;
+}
+
+.sobre p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+
+.sobre h2 {
+    position: relative; 
+}
+
+.sobre h2::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #5f9ea0;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.sobre h2.active::after {
+    transform: translateX(-50%) scaleX(1);
+}
