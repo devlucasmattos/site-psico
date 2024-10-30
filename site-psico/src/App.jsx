@@ -8,14 +8,15 @@ import Footer from './components/Footer';
 import Title from './components/Title';
 import Social from './components/Social';
 import './index.css'; // CSS global
+import gabrielleImage from './assets/gabrielle-chemieski.jpg';
 
 const App = () => {
     return (
         <>
             <Header />
             <div className="container foto-perfil">
-                <img src="/src/assets/gabrielle-chemieski.jpg" alt="Foto de Gabrielle Chemieski" />
-            </div>
+            <img src={gabrielleImage} alt="Foto de Gabrielle Chemieski" />
+        </div>
             <Title text="Sobre mim"/>
             <Sobre />
             <Title text="Serviços oferecidos"/>
