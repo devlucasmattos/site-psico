@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/site-psico/',
   plugins: [react()],
-  base: "/site-psico",
-})
+  build: {
+    outDir: 'dist',
+  },
+});
