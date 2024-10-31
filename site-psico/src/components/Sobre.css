@@ -44,3 +44,9 @@
 .sobre h2.active::after {
     transform: translateX(-50%) scaleX(1);
 }
+
+@media (max-width: 768px) {
+    .sobre .container {
+        max-width: 80%; 
+    }
+}
