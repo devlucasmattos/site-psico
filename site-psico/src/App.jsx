@@ -16,7 +16,7 @@ const App = () => {
             <Header />
             <div className="container foto-perfil">
             <img src={gabrielleImage} alt="Foto de Gabrielle Chemieski" />
-        </div>
+            </div>
             <Title text="Sobre mim"/>
             <Sobre />
             <Title text="Serviços oferecidos"/>

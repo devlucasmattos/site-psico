@@ -60,23 +60,25 @@
 
 
 @media (max-width: 768px) {
-    .cards {
-        flex-direction: column;
-        align-items: center; 
+    .servicos {
+        padding: 2rem 1rem; /* Reduz o padding em telas menores */
+        text-align: center; 
     }
-
+    
     .card {
-        width: 80%; 
+        width: 100%; /* 100% da largura disponível no contêiner */
+        padding: 1.5rem; /* Reduz o padding para telas menores */
+        margin: 0.5rem 0; /* Remove margem lateral em telas menores */
     }
 }
-
-
-@media (max-width: 480px) {
-    .cards {
-        flex-direction: column;
+    
+    @media (max-width: 480px) {
+        .cards {
+            flex-direction: column;
+            align-items: stretch; /* Faz as cartas ocuparem toda a largura disponível */
+        }
+    
+        .card {
+            margin: 0.5rem; /* Margem mais uniforme */
+        }
     }
-
-    .card {
-        width: 100%; 
-    }
-}

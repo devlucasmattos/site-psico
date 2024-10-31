@@ -1,23 +1,37 @@
 .depoimentos {
-    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0); 
+    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0);
     border-radius: 10px;
     margin: 20px auto;
-    width: 80%;
+    width: 95%; 
     max-width: 1160px;
-    padding: 8px;
+    padding: 2rem 1.5rem; 
     text-align: center;
-    border: none;
     box-shadow: 0 4px 15px rgba(95, 158, 160, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .depoimentos:hover {
-    transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+    transform: translateY(-5px); 
 }
 
 .depoimentos h2 {
     font-size: 2rem;
     color: #333;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem; 
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .depoimentos {
+        width: 95%; 
+        padding: 1.5rem 1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .depoimentos {
+        width: 95%; 
+        padding: 1rem; 
+        box-shadow: 0 2px 10px rgba(95, 158, 160, 0.2); 
+    }
 }
