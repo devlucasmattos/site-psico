@@ -25,3 +25,20 @@ header p {
     font-size: 1.2rem;
     margin: 1rem 0;
 }
+
+header .container .p {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 1rem 0; 
+}
+
+header .container .p p {
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0; 
+    color: #fff;
+    max-width: 90%; 
+    text-align: center; 
+}
